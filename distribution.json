@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "servers": [
+        {
+            "id": "outpost",
+            "name": "The Outpost",
+            "description": "Военный сервер с модами",
+            "address": "outpostmc.20tps.ru",
+            "minecraftVersion": "1.20.1",
+            "version": "1.0.0",
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "mods",
+                    "name": "Server Mods",
+                    "type": "Mods",
+                    "artifacts": [
+                        {
+                            "url": "https://raw.githubusercontent.com/OutpostMC/OutpostMC/main/PlayerRevive_FORGE_v2.0.26_mc1.20.1.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
